@@ -8,3 +8,5 @@ docker compose file to have containers for Elastic Search(Data Store/Indexing) +
 * open grafana: ```http://localhost:3000```
 * ES: ```http://localhost:9200```
 * Kibana: ```http://localhost:5601```
+
+Note: To add elasticsearch as datasource in grafana, give the IP address of ES container(`docker inspect es_container_id|grep "IPAdress"`)
